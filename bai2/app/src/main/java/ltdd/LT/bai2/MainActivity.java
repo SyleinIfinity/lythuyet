@@ -31,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
 //            finish();
         });
+
+        btn_dangKy.setOnClickListener(v->{
+            Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+            startActivity(intent);
+        });
     }
 
     public void init()
