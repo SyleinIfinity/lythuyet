@@ -3538,6 +3538,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable avatar_circle_bg
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -3581,7 +3582,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_return
 drawable ic_search_black_24
+drawable ic_setting
 drawable logo_tron
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3656,6 +3659,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rreturn
+drawable setting
 drawable test_level_drawable
 drawable tom
 drawable tooltip_frame_dark
@@ -3709,6 +3714,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id accountLayout
 id actionDown
 id actionDownUp
 id actionUp
@@ -3765,12 +3771,15 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnBack
 id btnLogin
 id btnLogin2
+id btnSetting
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cardAccount
 id carryVelocity
 id center
 id centerCrop
@@ -3896,6 +3905,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imgAvatar
 id immediateStop
 id included
 id indeterminate
@@ -4162,6 +4172,12 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvBranch
+id tvEmail
+id tvFullName
+id tvJoinDate
+id tvPhone
+id tvStatus
 id tvWelcome
 id unchecked
 id uniform
@@ -4305,6 +4321,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_account
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item

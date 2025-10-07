@@ -18,9 +18,10 @@
         android:background="@android:color/transparent"
         android:contentDescription="Back"
         android:src="@drawable/ic_return"
-        app:tint="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:tint="@android:color/black"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <!-- Nút cài đặt -->
     <ImageButton
@@ -31,9 +32,10 @@
         android:background="@android:color/transparent"
         android:contentDescription="Setting"
         android:src="@drawable/ic_setting"
-        app:tint="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:tint="@android:color/black"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <!-- Thẻ Card chính -->
     <androidx.cardview.widget.CardView

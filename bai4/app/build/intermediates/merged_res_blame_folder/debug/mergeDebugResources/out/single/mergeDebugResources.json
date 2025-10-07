@@ -28,8 +28,20 @@
         "source": "ltdd.th.bai4.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_ic_setting.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/ic_setting.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_rreturn.png.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/rreturn.png"
+    },
+    {
         "merged": "ltdd.th.bai4.app-debug-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "ltdd.th.bai4.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_avatar_circle_bg.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/avatar_circle_bg.xml"
     },
     {
         "merged": "ltdd.th.bai4.app-debug-34:/drawable_card_green.xml.flat",
@@ -44,12 +56,20 @@
         "source": "ltdd.th.bai4.app-main-36:/drawable/button_round.xml"
     },
     {
+        "merged": "ltdd.th.bai4.app-debug-34:/layout_activity_account.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/layout/activity_account.xml"
+    },
+    {
         "merged": "ltdd.th.bai4.app-debug-34:/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "ltdd.th.bai4.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
         "merged": "ltdd.th.bai4.app-debug-34:/drawable_card_sunset.xml.flat",
         "source": "ltdd.th.bai4.app-main-36:/drawable/card_sunset.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_ic_return.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/ic_return.xml"
     },
     {
         "merged": "ltdd.th.bai4.app-debug-34:/drawable_card_blue.xml.flat",
@@ -78,6 +98,10 @@
     {
         "merged": "ltdd.th.bai4.app-debug-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "ltdd.th.bai4.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_setting.png.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/setting.png"
     },
     {
         "merged": "ltdd.th.bai4.app-debug-34:/drawable_card_gray.xml.flat",
