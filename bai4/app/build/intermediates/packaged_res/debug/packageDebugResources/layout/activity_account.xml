@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/accountLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B56DC"
+    tools:context=".AccountActivity">
+
+    <!-- Nút quay lại -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Back"
+        android:src="@drawable/ic_return"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@android:color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Nút cài đặt -->
+    <ImageButton
+        android:id="@+id/btnSetting"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Setting"
+        android:src="@drawable/ic_setting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@android:color/black"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Thẻ Card chính -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAccount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="80dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#33FFFFFF"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintTop_toBottomOf="@id/btnBack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
+
+            <!-- Ảnh đại diện -->
+            <ImageView
+                android:id="@+id/imgAvatar"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/tom"
+                android:scaleType="centerCrop"
+                android:padding="5dp"
+                android:layout_marginTop="12dp" />
+
+            <!-- Họ tên -->
+            <TextView
+                android:id="@+id/tvFullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên người dùng"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp" />
+
+            <!-- Email -->
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="email@example.com"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp" />
+
+            <!-- Số điện thoại -->
+            <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0123 456 789"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp" />
+
+            <!-- Gạch ngang -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="#55FFFFFF" />
+
+            <!-- Chi tiết -->
+            <TextView
+                android:id="@+id/tvBranch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chi nhánh: Khách sạn Hà Nội"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/tvJoinDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày tham gia: 15/03/2023"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trạng thái: Đang hoạt động"
+                android:textColor="#80FF80"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="12dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
