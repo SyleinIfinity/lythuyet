@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable button_round
+drawable card_blue
+drawable card_gray
+drawable card_green
+drawable card_purple
+drawable card_sunset
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable logo_tron
+drawable tom
+id btnLogin
+id btnLogin2
+id etEmail
+id etPass
+id glassCard
+id logo
+id main
+id tvWelcome
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Bai4
+style Theme.Bai4
+xml backup_rules
+xml data_extraction_rules
