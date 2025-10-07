@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "ltdd.th.bai4.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_tom.png.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/tom.png"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "ltdd.th.bai4.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "ltdd.th.bai4.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_card_purple.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/card_purple.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "ltdd.th.bai4.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "ltdd.th.bai4.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_card_green.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/card_green.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "ltdd.th.bai4.app-main-36:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_button_round.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/button_round.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "ltdd.th.bai4.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_card_sunset.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/card_sunset.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_card_blue.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/card_blue.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/xml_data_extraction_rules.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/xml_backup_rules.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_logo_tron.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/logo_tron.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "ltdd.th.bai4.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_card_gray.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/card_gray.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/layout_activity_main.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "ltdd.th.bai4.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "ltdd.th.bai4.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ltdd.th.bai4.app-debug-34:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "ltdd.th.bai4.app-main-36:/drawable/ic_launcher_foreground.xml"
+    }
+]
