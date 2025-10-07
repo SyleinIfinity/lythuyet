@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable bg_2
+drawable bg_3
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id View1
+id btnLOGIN
+id editText_pass
+id editText_user
+id main
+id textView_forgot
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Bai3
+style Theme.Bai3
+xml backup_rules
+xml data_extraction_rules
