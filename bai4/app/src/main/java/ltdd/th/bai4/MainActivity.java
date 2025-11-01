@@ -34,10 +34,9 @@ public class MainActivity extends AppCompatActivity {
             bundle.putString("phone", "0123456789");
             bundle.putString("branch", "Khách sạn Đà Nẵng");
             bundle.putString("joinDate", "12/02/2024");
-            bundle.putString("status", "Đang hoạt động");
+            bundle.putString("status", "Đang ngủ");
             intent.putExtras(bundle);
             startActivity(intent);
         });
-
     }
 }
