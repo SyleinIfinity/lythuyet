@@ -12,69 +12,58 @@ import com.bumptech.glide.Glide; // Cần thư viện Glide
 
 import java.util.ArrayList;
 
-public class HaiTacAdapter extends RecyclerView.Adapter<HaiTacAdapter.ViewHolder> {
+public class HaiTacAdapter extends RecyclerView.Adapter<HaiTacViewHolder> {
 
     private Context mContext;
     private ArrayList<HaiTacModel> mHaiTacList;
+    private HaiTacListener mListener; // SỬA ĐỔI 2: Thêm biến Listener
 
-    public HaiTacAdapter(Context context, ArrayList<HaiTacModel> haiTacList) {
+    // SỬA ĐỔI 3: Thêm Listener vào constructor
+    public HaiTacAdapter(Context context, ArrayList<HaiTacModel> haiTacList, HaiTacListener listener) {
         this.mContext = context;
         this.mHaiTacList = haiTacList;
+        this.mListener = listener; // Gán listener
     }
 
-    // Lớp ViewHolder (tích hợp trong Adapter)
-    public class ViewHolder extends RecyclerView.ViewHolder {
-        ImageView imgBackgroundPoster;
-        ImageView imgNhanDien;
-        TextView tvTenHaiTac;
-        TextView tvTienTruyNa;
-        TextView tvYeuCauTruyNa;
-        TextView tvMarine; // TextView cho chữ MARINE
-
-        public ViewHolder(@NonNull View itemView) {
-            super(itemView);
-            imgBackgroundPoster = itemView.findViewById(R.id.imgBackgroundPoster);
-            imgNhanDien = itemView.findViewById(R.id.imgNhanDien);
-            tvTenHaiTac = itemView.findViewById(R.id.tvTenHaiTac);
-            tvTienTruyNa = itemView.findViewById(R.id.tvTienTruyNa);
-            tvYeuCauTruyNa = itemView.findViewById(R.id.tvYeuCauTruyNa);
-        }
-    }
+    // SỬA ĐỔI 4: Không còn lớp ViewHolder ở đây
 
     @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        // "Thổi phồng" (inflate) layout item_hai_tac.xml
+    public HaiTacViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(mContext).inflate(R.layout.item_hai_tac, parent, false);
-        return new ViewHolder(view);
+        // Trả về đối tượng ViewHolder đã tách riêng
+        return new HaiTacViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        // Lấy đối tượng HaiTacModel tại vị trí hiện tại
+    public void onBindViewHolder(@NonNull HaiTacViewHolder holder, int position) {
+        // Lấy đối tượng HaiTacModel
         HaiTacModel currentHaiTac = mHaiTacList.get(position);
 
-        // Gắn ảnh nhận diện (ảnh chân dung)
-        // Glide sẽ giúp tải và hiển thị ảnh hiệu quả
+        // --- Gắn dữ liệu (như cũ) ---
         Glide.with(mContext)
                 .load(currentHaiTac.getAnhNhanDien())
                 .into(holder.imgNhanDien);
 
-        // Gắn tên
         holder.tvTenHaiTac.setText(currentHaiTac.getTenHaiTac());
-
-        // Gắn tiền truy nã (thêm ký hiệu tiền tệ)
         holder.tvTienTruyNa.setText("฿ " + currentHaiTac.getTienTruyNa() + "-");
 
-        // Gắn yêu cầu truy nã (ALIVE hoặc DEAD OR ALIVE)
         if (currentHaiTac.isAlive()) {
             holder.tvYeuCauTruyNa.setText("ALIVE");
         } else {
             holder.tvYeuCauTruyNa.setText("DEAD OR ALIVE");
         }
 
-        // Bạn có thể giữ chữ MARINE cố định hoặc thay đổi nếu cần
-        // holder.tvMarine.setText("MARINE");
+        // SỬA ĐỔI 5: Thêm sự kiện click
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Kiểm tra listener không null trước khi gọi
+                if (mListener != null) {
+                    mListener.onHaiTacClick(currentHaiTac); // Gọi phương thức của interface
+                }
+            }
+        });
     }
 
     @Override

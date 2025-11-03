@@ -15,7 +15,6 @@ public class HaiTacModel {
         this.isAlive = isAlive;
     }
 
-    // --- Getters ---
     public String getMaHaiTac() {
         return maHaiTac;
     }
@@ -35,20 +34,15 @@ public class HaiTacModel {
     public boolean isAlive() {
         return isAlive;
     }
-
-    // --- Setters (nếu cần thay đổi sau khi tạo) ---
     public void setMaHaiTac(String maHaiTac) {
         this.maHaiTac = maHaiTac;
     }
-
     public void setTenHaiTac(String tenHaiTac) {
         this.tenHaiTac = tenHaiTac;
     }
-
     public void setTienTruyNa(String tienTruyNa) {
         this.tienTruyNa = tienTruyNa;
     }
-
     public void setAnhNhanDien(int anhNhanDien) {
         this.anhNhanDien = anhNhanDien;
     }
